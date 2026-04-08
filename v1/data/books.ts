@@ -1,0 +1,81 @@
+import type { Book } from "@/lib/types"
+
+export const books: Book[] = [
+  // Old Testament - Hebrew and Aramaic Scriptures
+  { id: "genesis", name: "Genèse", testament: "old", chapters: 50, abbreviation: "Gn" },
+  { id: "exodus", name: "Exode", testament: "old", chapters: 40, abbreviation: "Ex" },
+  { id: "leviticus", name: "Lévitique", testament: "old", chapters: 27, abbreviation: "Lv" },
+  { id: "numbers", name: "Nombres", testament: "old", chapters: 36, abbreviation: "Nb" },
+  { id: "deuteronomy", name: "Deutéronome", testament: "old", chapters: 34, abbreviation: "Dt" },
+  { id: "joshua", name: "Josué", testament: "old", chapters: 24, abbreviation: "Jos" },
+  { id: "judges", name: "Juges", testament: "old", chapters: 21, abbreviation: "Jg" },
+  { id: "ruth", name: "Ruth", testament: "old", chapters: 4, abbreviation: "Rt" },
+  { id: "1samuel", name: "1 Samuel", testament: "old", chapters: 31, abbreviation: "1 S" },
+  { id: "2samuel", name: "2 Samuel", testament: "old", chapters: 24, abbreviation: "2 S" },
+  { id: "1kings", name: "1 Rois", testament: "old", chapters: 22, abbreviation: "1 R" },
+  { id: "2kings", name: "2 Rois", testament: "old", chapters: 25, abbreviation: "2 R" },
+  { id: "1chronicles", name: "1 Chroniques", testament: "old", chapters: 29, abbreviation: "1 Ch" },
+  { id: "2chronicles", name: "2 Chroniques", testament: "old", chapters: 36, abbreviation: "2 Ch" },
+  { id: "ezra", name: "Esdras", testament: "old", chapters: 10, abbreviation: "Esd" },
+  { id: "nehemiah", name: "Néhémie", testament: "old", chapters: 13, abbreviation: "Né" },
+  { id: "esther", name: "Esther", testament: "old", chapters: 10, abbreviation: "Est" },
+  { id: "job", name: "Job", testament: "old", chapters: 42, abbreviation: "Jb" },
+  { id: "psalms", name: "Psaumes", testament: "old", chapters: 150, abbreviation: "Ps" },
+  { id: "proverbs", name: "Proverbes", testament: "old", chapters: 31, abbreviation: "Pr" },
+  { id: "ecclesiastes", name: "Ecclésiaste", testament: "old", chapters: 12, abbreviation: "Ec" },
+  { id: "songs", name: "Cantique de Salomon", testament: "old", chapters: 8, abbreviation: "Ct" },
+  { id: "isaiah", name: "Isaïe", testament: "old", chapters: 66, abbreviation: "Is" },
+  { id: "jeremiah", name: "Jérémie", testament: "old", chapters: 52, abbreviation: "Jr" },
+  { id: "lamentations", name: "Lamentations", testament: "old", chapters: 5, abbreviation: "Lm" },
+  { id: "ezekiel", name: "Ézéchiel", testament: "old", chapters: 48, abbreviation: "Ez" },
+  { id: "daniel", name: "Daniel", testament: "old", chapters: 12, abbreviation: "Dn" },
+  { id: "hosea", name: "Osée", testament: "old", chapters: 14, abbreviation: "Os" },
+  { id: "joel", name: "Joël", testament: "old", chapters: 3, abbreviation: "Jl" },
+  { id: "amos", name: "Amos", testament: "old", chapters: 9, abbreviation: "Am" },
+  { id: "obadiah", name: "Abdias", testament: "old", chapters: 1, abbreviation: "Abd" },
+  { id: "jonah", name: "Jonas", testament: "old", chapters: 4, abbreviation: "Jon" },
+  { id: "micah", name: "Michée", testament: "old", chapters: 7, abbreviation: "Mi" },
+  { id: "nahum", name: "Nahum", testament: "old", chapters: 3, abbreviation: "Na" },
+  { id: "habakkuk", name: "Habacuc", testament: "old", chapters: 3, abbreviation: "Ha" },
+  { id: "zephaniah", name: "Sophonie", testament: "old", chapters: 3, abbreviation: "So" },
+  { id: "haggai", name: "Aggée", testament: "old", chapters: 2, abbreviation: "Ag" },
+  { id: "zechariah", name: "Zacharie", testament: "old", chapters: 14, abbreviation: "Za" },
+  { id: "malachi", name: "Malachie", testament: "old", chapters: 4, abbreviation: "Ml" },
+
+  // New Testament - Greek Christian Scriptures
+  { id: "matthew", name: "Matthieu", testament: "new", chapters: 28, abbreviation: "Mt" },
+  { id: "mark", name: "Marc", testament: "new", chapters: 16, abbreviation: "Mc" },
+  { id: "luke", name: "Luc", testament: "new", chapters: 24, abbreviation: "Lc" },
+  { id: "john", name: "Jean", testament: "new", chapters: 21, abbreviation: "Jn" },
+  { id: "acts", name: "Actes", testament: "new", chapters: 28, abbreviation: "Ac" },
+  { id: "romans", name: "Romains", testament: "new", chapters: 16, abbreviation: "Rm" },
+  { id: "1corinthians", name: "1 Corinthiens", testament: "new", chapters: 16, abbreviation: "1 Co" },
+  { id: "2corinthians", name: "2 Corinthiens", testament: "new", chapters: 13, abbreviation: "2 Co" },
+  { id: "galatians", name: "Galates", testament: "new", chapters: 6, abbreviation: "Ga" },
+  { id: "ephesians", name: "Éphésiens", testament: "new", chapters: 6, abbreviation: "Ep" },
+  { id: "philippians", name: "Philippiens", testament: "new", chapters: 4, abbreviation: "Ph" },
+  { id: "colossians", name: "Colossiens", testament: "new", chapters: 4, abbreviation: "Col" },
+  { id: "1thessalonians", name: "1 Thessaloniciens", testament: "new", chapters: 5, abbreviation: "1 Th" },
+  { id: "2thessalonians", name: "2 Thessaloniciens", testament: "new", chapters: 3, abbreviation: "2 Th" },
+  { id: "1timothy", name: "1 Timothée", testament: "new", chapters: 6, abbreviation: "1 Tm" },
+  { id: "2timothy", name: "2 Timothée", testament: "new", chapters: 4, abbreviation: "2 Tm" },
+  { id: "titus", name: "Tite", testament: "new", chapters: 3, abbreviation: "Tt" },
+  { id: "philemon", name: "Philémon", testament: "new", chapters: 1, abbreviation: "Phm" },
+  { id: "hebrews", name: "Hébreux", testament: "new", chapters: 13, abbreviation: "Hb" },
+  { id: "james", name: "Jacques", testament: "new", chapters: 5, abbreviation: "Jc" },
+  { id: "1peter", name: "1 Pierre", testament: "new", chapters: 5, abbreviation: "1 P" },
+  { id: "2peter", name: "2 Pierre", testament: "new", chapters: 3, abbreviation: "2 P" },
+  { id: "1john", name: "1 Jean", testament: "new", chapters: 5, abbreviation: "1 Jn" },
+  { id: "2john", name: "2 Jean", testament: "new", chapters: 1, abbreviation: "2 Jn" },
+  { id: "3john", name: "3 Jean", testament: "new", chapters: 1, abbreviation: "3 Jn" },
+  { id: "jude", name: "Jude", testament: "new", chapters: 1, abbreviation: "Jd" },
+  { id: "revelation", name: "Révélation", testament: "new", chapters: 22, abbreviation: "Rv" },
+]
+
+export function getBook(bookId: string): Book | undefined {
+  return books.find((book) => book.id === bookId)
+}
+
+export function getBooksByTestament(testament: "old" | "new"): Book[] {
+  return books.filter((book) => book.testament === testament)
+}
